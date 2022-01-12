@@ -28,9 +28,10 @@ export const Content = () => {
             <Typography variant="h5" component="h2" gutterBottom>
                 <TextDecrypt text={`${Resume.basics.job},`} />
                 <TextDecrypt text={`${Resume.basics.job2},`} />
-
+                {/* <TextDecrypt text={`${Resume.basics.job3},`} />
+                <TextDecrypt text={`${Resume.basics.job4},`} /> */}
                 <a target="_blank" href="https://paradisx.com" style={{textDecoration:"none", color:"#00bbff"}}>
-                    <TextDecrypt text={`${Resume.basics.job3}.`} />
+                    <TextDecrypt text={`${Resume.basics.job5}.`} />
                 </a>
 
             </Typography>
