@@ -1,0 +1,153 @@
+{
+    "basics": {
+        "name": "Soumalya Kundu",
+        "label": "Computer Science Engineering Student",
+        "email": "contact@soumalya.com",
+        "phone": "+91",
+        "picture": "jl.png",
+        "x_title": "Hey, I'm",
+        "job": "Softwate Development Engineer",
+        "job2": "Linux Enthusiast",
+        "job3": "Co-Founder & Director @ ParadisX",
+        "_company": "ParadisX",
+        "description": "Hey, I'm Soumalya Kundu...",
+        "summary": "based in Kolkata, India.",
+        "keywords": "portfolio,soumalya,soumalyakundu,thebigfatpanda,panda,onebigfatpanda,computer,science,kolkata,india,paradisx,paradise,linux,backend,Software,SDE,SWE",
+        "url": "http://soumalya.com",
+        "location": {
+            "address": "Jadavpur",
+            "postalCode": "700032",
+            "city": "Kolkata",
+            "country": "India",
+            "countryCode": "IN",
+            "region": "kolkata"
+        },
+        "profiles": [
+            {
+                "network": "Mail",
+                "username": "Contact me",
+                "url": "contact@soumalya.com",
+                "x_icon": "fa fa-envelope"
+            },
+            {
+                "network": "LinkedIn",
+                "username": "soumalya-kundu",
+                "url": "https://www.linkedin.com/in/soumalya-kundu/",
+                "x_icon": "fab fa-linkedin-in"
+            },
+            {
+                "network": "GitHub",
+                "username": "Soumalya1857",
+                "url": "https://github.com/Soumalya1857",
+                "x_icon": "fab fa-github"
+            },
+            {
+                "network": "Facebook",
+                "username": "soumalyakundu",
+                "url": "https://www.facebook.com/soumalya.kundu.125/",
+                "x_icon": "fab fa-facebook"
+            },
+            {
+                "network": "YouTube",
+                "username": "soumalyakundu",
+                "url": "https://youtube.com/",
+                "x_icon": "fab fa-youtube"
+            },
+            {
+                "network": "Instagram",
+                "username": "__thebigfatpanda_",
+                "url": "https://www.instagram.com/__thebigfatpanda_/",
+                "x_icon": "fab fa-instagram"
+            },
+            {
+                "network": "Resume",
+                "username": "Resume",
+                "url": "https://drive.google.com/file/d/10cJ5sGnkDLzo4E3ZhoohE68d-q4dt95W/view?usp=sharing",
+                "x_icon": "fas fa-file-pdf"
+            }
+        ]
+    },
+    "work": [
+        {
+            "company": "ParadisX",
+            "position": "Co-Founder & Director",
+            "website": "https://paradisx.com",
+            "startDate": "2022-01-01",
+            "endDate": "2050-01-01",
+            "summary": "...",
+            "highlights": ["..."]
+        }
+    ],
+    "volunteer": [
+        {
+            "organization": "Organization",
+            "position": "Volunteer",
+            "website": "http://organization.com/",
+            "startDate": "2012-01-01",
+            "endDate": "2013-01-01",
+            "summary": "Description...",
+            "highlights": ["Awarded 'Volunteer of the Month'"]
+        }
+    ],
+    "education": [
+        {
+            "institution": "Jadavpur University",
+            "area": "B.E in Computer Science Engineering",
+            "studyType": "Bachelor",
+            "startDate": "2018-08-014",
+            "endDate": "2022-06-01",
+            "gpa": "8.8",
+            "courses": ["..."]
+        }
+    ],
+    "awards": [
+        {
+            "title": "Award",
+            "date": "2014-11-01",
+            "awarder": "Company",
+            "summary": "There is no spoon."
+        }
+    ],
+    "publications": [
+        {
+            "name": "Publication",
+            "publisher": "Company",
+            "releaseDate": "2014-10-01",
+            "website": "http://publication.com",
+            "summary": "Description..."
+        }
+    ],
+    "skills": [
+        {
+            "name": "Web Development",
+            "level": "Master",
+            "keywords": ["HTML", "CSS", "Javascript"]
+        }
+    ],
+    "languages": [
+        {
+            "language": "Bengali",
+            "fluency": "Native speaker"
+        },
+        {
+            "language": "English",
+            "fluency": "Fluent speaker"
+        },
+        {
+            "language": "Hindi",
+            "fluency": "Good knowledge"
+        }
+    ],
+    "interests": [
+        {
+            "name": "Wildlife",
+            "keywords": ["Ferrets", "Unicorns"]
+        }
+    ],
+    "references": [
+        {
+            "name": "Jane Doe",
+            "reference": "Reference..."
+        }
+    ]
+}
