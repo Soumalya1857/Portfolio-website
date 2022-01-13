@@ -1,0 +1,28 @@
+
+name: Deploy on Live channel
+
+on:
+  push:
+    branches : [ main ]
+
+jobs:
+  build_and_preview:
+    runs-on : ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v1
+        with:
+          node-version: 16
+      - run: npm ci
+      # add test code (if necessary) here
+      - run: npm run build
+      # deploy on live channel
+      - uses: FirebaseExtended/action-hosting-deploy@v0
+        with:
+          repoToken: "${{ secrets.GITHUB_TOKEN }}"
+          firebaseServiceAccount: "${{ secrets.FIREBASE_SERVICE_ACCOUNT_SOUMALYA_PERSONAL_WEBSITE }}"
+          projectId: soumalya-personal-website
+          channelId: live
+          
+      
+        
