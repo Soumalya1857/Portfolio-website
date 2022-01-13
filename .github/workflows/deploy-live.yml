@@ -16,6 +16,8 @@ jobs:
       - run: npm ci
       # add test code (if necessary) here
       - run: npm run build
+        env: 
+            CI : ""
       # deploy on live channel
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
