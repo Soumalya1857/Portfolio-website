@@ -1,7 +1,7 @@
 # Portfolio-website
 My portfolio website<br />
-* main is the live branch and synced with firebase
-* develop in feature branch and send the updates to main as a pull request
+* `main` is the live branch and synced with `firebase`
+* develop in `feature` branch and send the updates to main as a `pull request`
 
 # Personal Website React
 
