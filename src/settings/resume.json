@@ -6,7 +6,7 @@
         "phone": "+91",
         "picture": "jl.png",
         "x_title": "Hey, I'm",
-        "job": "Softwate Development Engineer",
+        "job": "Software Development Engineer",
         "job2": "Linux Enthusiast",
         "job3": "Linux Enthusiast",
         "job4": "Linux Enthusiast",
@@ -27,7 +27,7 @@
         "profiles": [
             {
                 "network": "Mail",
-                "username": "Contact me",
+                "username": "Contact me at contact@soumalya.com",
                 "url": "contact@soumalya.com",
                 "x_icon": "fa fa-envelope"
             },
