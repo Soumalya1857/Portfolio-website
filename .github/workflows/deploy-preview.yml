@@ -1,0 +1,27 @@
+name: Build and test PRs
+
+on:
+  pull_request:
+    branches : [ main ]
+
+jobs:
+  build_and_preview:
+    runs-on : ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v1
+        with:
+          node-version: 16
+      - run: npm ci
+      # add test code (if necessary) here
+      - run: npm run build
+        env: 
+            CI : ""
+      # deploy on preview channel
+      - uses: FirebaseExtended/action-hosting-deploy@v0
+        with:
+          repoToken: "${{ secrets.GITHUB_TOKEN }}"
+          firebaseServiceAccount: "${{ secrets.FIREBASE_SERVICE_ACCOUNT_SOUMALYA_PERSONAL_WEBSITE }}"
+          expires: 2d
+          projectId: soumalya-personal-website
+        
