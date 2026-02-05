@@ -36,8 +36,8 @@ export const FooterText = () => {
       rel='noopener noreferrer'
       className={classes.footerText}
     >
-      <Typography variant='body1'>
-        <TextDecrypt text={'Ⓒ 2022 soumalya.com'} />
+      <Typography variant='body1' component='span'>
+        <TextDecrypt text={'Ⓒ 2026 soumalya.com'} />
       </Typography>
     </Link>
     
