@@ -37,7 +37,7 @@ export const FooterText = () => {
       className={classes.footerText}
     >
       <Typography variant='body1'>
-        <TextDecrypt text={'Ⓒ 2022 soumalya.com'} />
+        <TextDecrypt text={'Ⓒ 2026 soumalya.com'} />
       </Typography>
     </Link>
     
