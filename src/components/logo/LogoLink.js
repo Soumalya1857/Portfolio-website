@@ -34,7 +34,7 @@ export const LogoLink = () => {
                 noWrap
                 className={classes.svg}
             >
-                <img src={require('./logo.jpg')} width="70" height="70" />
+                <img src={require('./soumalya.jpg').default} alt="Soumalya's profile picture" width="70" height="70" />
             </Link>
         </Tooltip>
     );
