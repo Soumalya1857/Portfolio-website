@@ -3,21 +3,22 @@ name: Deploy on Live channel
 
 on:
   push:
-    branches : [ main ]
+    branches: [ main ]
 
 jobs:
   build_and_deploy:
-    runs-on : ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-node@v1
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
         with:
-          node-version: 16
+          node-version: 18
+          cache: 'npm'
       - run: npm ci
       # add test code (if necessary) here
       - run: npm run build
         env: 
-            CI : ""
+          CI: false
       # deploy on live channel
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
