@@ -30,7 +30,7 @@ export const Content = () => {
                 <TextDecrypt text={`${Resume.basics.job2},`} />
                 {/* <TextDecrypt text={`${Resume.basics.job3},`} />
                 <TextDecrypt text={`${Resume.basics.job4},`} /> */}
-                <a target="_blank" href="https://paradisx.com" style={{textDecoration:"none", color:"#00bbff"}}>
+                <a target="_blank" href="https://www.goldmansachs.com/" style={{textDecoration:"none", color:"#00bbff"}}>
                     <TextDecrypt text={`${Resume.basics.job5}.`} />
                 </a>
 
